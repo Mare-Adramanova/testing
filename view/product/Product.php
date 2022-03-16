@@ -38,7 +38,7 @@
                     <h6 class="text-center"><?= $product['name']?></h6>
                     <h6 class="text-center"><?= $product['price']?>,00 $<br></h6>
                     <?php   switch ($product['productType']) {
-                            case "Disc": ?>
+                            case "DVD": ?>
                                 <h6 class="text-center">Size: <?= $product['size']?> MB</h6>
                         <?php   break;
                             case "Book": ?>
